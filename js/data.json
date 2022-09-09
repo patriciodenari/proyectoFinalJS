@@ -1,0 +1,32 @@
+[
+    {
+        "id": "13",
+        "nombre": "Cigarrillos x20 u",
+        "precio": "500",
+        "imagen": "./img/cigarrillos.jpg"
+    },
+    {
+        "id": "14",
+        "nombre": "Bolsa Hielo 5kg",
+        "precio": "500",
+        "imagen": "./img/hielo.jpg"
+    },
+    {
+        "id": "15",
+        "nombre": "Vasos 500 cm3 x 10",
+        "precio": "400",
+        "imagen": "./img/vasos.jpg"
+    },
+    {
+        "id": "16",
+        "nombre": "Lays 80g",
+        "precio": "350",
+        "imagen": "./img/lays.jpg"
+    },
+    {
+        "id": "17",
+        "nombre": "Agua mineral Villavicencio 2 L",
+        "precio": "200",
+        "imagen": "./img/agua.jpg"
+    }
+]

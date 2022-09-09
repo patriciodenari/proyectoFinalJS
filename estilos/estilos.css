@@ -1,0 +1,188 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: antiquewhite;
+}
+
+.estiloDiv {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  color: black;
+}
+
+#grillaBody {
+  display: grid;
+  height: auto;
+  width: 100%;
+  margin: 30px 0;
+  text-align: center;
+  grid-template-columns: 4fr 1fr;
+  grid-template-rows: auto;
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+  justify-content: space-evenly;
+}
+#grillaBody #bodyItem-1 {
+  margin-right: 20px;
+}
+#grillaBody #bodyItem-1 #cuadroCarrito {
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+  align-items: center;
+  border: 2px solid black;
+  background-color: rgb(230, 217, 254);
+}
+#grillaBody #bodyItem-1 #cuadroCarrito #contenedorCarrito {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+#grillaBody #bodyItem-1 #cuadroCarrito #contenedorCarrito div {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  width: 100%;
+  justify-content: space-between;
+}
+#grillaBody #bodyItem-1 #cuadroCarrito #contenedorCarrito div .nombre, #grillaBody #bodyItem-1 #cuadroCarrito #contenedorCarrito div .precio {
+  margin: 3px 5px;
+}
+#grillaBody #bodyItem-1 #cuadroCarrito p {
+  color: black;
+  font-weight: bold;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+#grillaBody #bodyItem-1 #cuadroCarrito #vaciarCarrito {
+  margin: 5px;
+  padding: 3px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+#grillaBody #catalogo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#grillaBody #catalogo h2 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+#grillaBody #catalogo #grilla {
+  display: grid;
+  height: auto;
+  width: 100%;
+  margin-top: 20px;
+  text-align: center;
+  grid-template-columns: repeat(3, auto);
+  grid-template-rows: repeat(4, auto);
+  row-gap: 30px;
+  justify-content: space-evenly;
+}
+#grillaBody #catalogo #grilla div {
+  display: flex;
+  flex-direction: column;
+  width: 230px;
+  align-items: center;
+}
+#grillaBody #catalogo #grilla div h5 {
+  margin-top: 5px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  color: black;
+  font-weight: 600;
+}
+#grillaBody #catalogo #grilla div img {
+  height: 200px;
+  width: 200px;
+  border: 2px ridge black;
+  border-radius: 10px;
+}
+#grillaBody #catalogo #grilla div p {
+  margin: 0;
+}
+#grillaBody #catalogo #grilla div button {
+  margin: 7px auto;
+  background-color: rgb(174, 221, 250);
+  color: black;
+  width: 150px;
+}
+#grillaBody #catalogo #grilla div button:hover {
+  font-weight: 600;
+}
+#grillaBody #contenedorExtras {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 200px;
+}
+#grillaBody #contenedorExtras h2 {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 135px;
+  margin-bottom: 50px;
+  color: black;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+#grillaBody #contenedorExtras #extras {
+  display: grid;
+  height: auto;
+  width: 100%;
+  margin-top: 20px;
+  text-align: center;
+  grid-template-columns: repeat(3, auto);
+  grid-template-rows: repeat(4, auto);
+  row-gap: 30px;
+  justify-content: space-evenly;
+}
+#grillaBody #contenedorExtras #extras div {
+  display: flex;
+  flex-direction: column;
+  width: 230px;
+  align-items: center;
+}
+#grillaBody #contenedorExtras #extras div h5 {
+  margin-top: 10px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  color: black;
+  font-weight: 600;
+}
+#grillaBody #contenedorExtras #extras div img {
+  height: 200px;
+  width: 200px;
+  border: 2px ridge black;
+  border-radius: 10px;
+}
+#grillaBody #contenedorExtras #extras div p {
+  margin: 0;
+}
+#grillaBody #contenedorExtras #extras div button {
+  margin: 7px auto;
+  background-color: rgb(174, 221, 250);
+  color: black;
+  width: 150px;
+}
+#grillaBody #contenedorExtras #extras div button:hover {
+  font-weight: 600;
+}
+
+nav {
+  width: 100%;
+}
+nav header {
+  display: flex;
+  justify-content: space-between;
+  width: auto;
+}
+nav header h1 {
+  margin: 10px 50px;
+}
+nav header div button {
+  border: 2px solid black;
+  height: 50px;
+  width: 50px;
+  margin: 10px 50px;
+}/*# sourceMappingURL=estilos.css.map */
