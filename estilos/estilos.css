@@ -57,7 +57,7 @@ body {
   margin-top: 10px;
   margin-bottom: 0px;
 }
-#grillaBody #bodyItem-1 #cuadroCarrito #vaciarCarrito {
+#grillaBody #bodyItem-1 #cuadroCarrito #vaciarCarrito, #grillaBody #bodyItem-1 #cuadroCarrito #finalizarCompra {
   margin: 5px;
   padding: 3px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;

@@ -25,6 +25,11 @@ btnVaciarCarrito.addEventListener('click', () => {
     actualizarCarrito();
 })
 
+finalizarCompra.addEventListener('click', () => {
+    carrito.length = 0;
+    actualizarCarrito();
+})
+
 stock.forEach((producto) => {
     const div = document.createElement('div')
     div.innerHTML = `
